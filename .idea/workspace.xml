@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ce8188f-c870-4179-8dd7-4916435f5285" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.story.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InMemoryLdapServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LdapClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleLdapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/users.ldif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LdapInjectionTest.java" afterDir="false" />
+    <list default="true" id="9ce8188f-c870-4179-8dd7-4916435f5285" name="Changes" comment="Fixing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.story.md" beforeDir="false" afterPath="$PROJECT_DIR$/.story.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -42,7 +36,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/CodingStories/LDAP/GitLabProjects/codingstories/fixing/ldap-injection-prevention/src/main/java"
+    "last_opened_file_path": "C:/CodingStories/LDAP/GitLabProjects/codingstories/final/ldap-injection-prevention-beginner",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -55,7 +50,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LdapInjectionTest (1)">
+    <configuration name="LdapInjectionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ldap-injection-prevention-beginner" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LdapInjectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LdapInjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ldap-injection-prevention" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LdapInjectionTest (1)" />
         <item itemvalue="JUnit.LdapInjectionTest" />
       </list>
     </recent_temporary>
@@ -80,7 +85,58 @@
       <option name="presentableId" value="Default" />
       <updated>1666630610895</updated>
       <workItem from="1666630612250" duration="419000" />
+      <workItem from="1666631376382" duration="6393000" />
     </task>
+    <task id="LOCAL-00001" summary="Methods">
+      <created>1666636647002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666636647002</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test">
+      <created>1666637722975</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666637722975</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Explanation">
+      <created>1666638921887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666638921887</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Solution">
+      <created>1666639018432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666639018432</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Login input">
+      <created>1666640332355</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666640332355</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Search input">
+      <created>1666640379032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666640379032</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixing">
+      <created>1666641802388</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666641802388</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +152,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Methods" />
+    <MESSAGE value="Test" />
+    <MESSAGE value="Explanation" />
+    <MESSAGE value="Solution" />
+    <MESSAGE value="Login input" />
+    <MESSAGE value="Search input" />
+    <MESSAGE value="Fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SimpleLdapService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FilterHelper.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

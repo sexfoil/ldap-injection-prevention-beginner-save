@@ -35,6 +35,9 @@ public class SimpleLdapService {
         String filter = "(&(uid=" + user + ")(userPassword=" + password + "))";
 
         try {
+            if (!FilterHelper.isValidLoginInput(user)) {
+                throw new NamingException();
+            }
             NamingEnumeration<SearchResult> result = clientContext.search("ou=people,dc=springframework,dc=org", filter, new SearchControls());
             return result.hasMore();
 
@@ -50,6 +53,10 @@ public class SimpleLdapService {
         List<SearchResult> resultList = null;
 
         try {
+            if (!FilterHelper.isValidSearchInput(uid)) {
+                resultList = new ArrayList<>();
+                throw new NamingException();
+            }
             NamingEnumeration<SearchResult> result = clientContext.search("ou=people,dc=springframework,dc=org", "uid=" + uid, new SearchControls());
 
             resultList = new ArrayList<>();
