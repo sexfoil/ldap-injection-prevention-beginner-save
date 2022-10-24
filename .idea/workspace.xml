@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ce8188f-c870-4179-8dd7-4916435f5285" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.story.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InMemoryLdapServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LdapClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleLdapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/users.ldif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LdapInjectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +30,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/CodingStories/LDAP/GitLabProjects/codingstories/fixing/ldap-injection-prevention/src/main/java"
+    "last_opened_file_path": "C:/CodingStories/LDAP/GitLabProjects/codingstories/final/ldap-injection-prevention-beginner"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -80,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666630610895</updated>
       <workItem from="1666630612250" duration="419000" />
+      <workItem from="1666631376382" duration="627000" />
     </task>
     <servers />
   </component>
