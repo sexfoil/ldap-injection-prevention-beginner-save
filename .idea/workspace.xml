@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ce8188f-c870-4179-8dd7-4916435f5285" name="Changes" comment="Search input">
+    <list default="true" id="9ce8188f-c870-4179-8dd7-4916435f5285" name="Changes" comment="Fixing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.story.md" beforeDir="false" afterPath="$PROJECT_DIR$/.story.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleLdapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleLdapService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.LdapInjectionTest (1)">
+    <configuration name="LdapInjectionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ldap-injection-prevention-beginner" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LdapInjectionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LdapInjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ldap-injection-prevention" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,6 +71,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LdapInjectionTest (1)" />
         <item itemvalue="JUnit.LdapInjectionTest" />
       </list>
     </recent_temporary>
@@ -76,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666630610895</updated>
       <workItem from="1666630612250" duration="419000" />
-      <workItem from="1666631376382" duration="5933000" />
+      <workItem from="1666631376382" duration="6393000" />
     </task>
     <task id="LOCAL-00001" summary="Methods">
       <created>1666636647002</created>
@@ -120,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666640379032</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixing">
+      <created>1666641802388</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666641802388</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +160,23 @@
     <MESSAGE value="Solution" />
     <MESSAGE value="Login input" />
     <MESSAGE value="Search input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search input" />
+    <MESSAGE value="Fixing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SimpleLdapService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FilterHelper.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
