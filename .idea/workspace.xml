@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ce8188f-c870-4179-8dd7-4916435f5285" name="Changes" comment="Test">
+    <list default="true" id="9ce8188f-c870-4179-8dd7-4916435f5285" name="Changes" comment="Solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FilterHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.story.md" beforeDir="false" afterPath="$PROJECT_DIR$/.story.md" afterDir="false" />
     </list>
@@ -75,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666630610895</updated>
       <workItem from="1666630612250" duration="419000" />
-      <workItem from="1666631376382" duration="3017000" />
+      <workItem from="1666631376382" duration="4303000" />
     </task>
     <task id="LOCAL-00001" summary="Methods">
       <created>1666636647002</created>
@@ -91,7 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666637722975</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Explanation">
+      <created>1666638921887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666638921887</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Solution">
+      <created>1666639018432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666639018432</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Methods" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Explanation" />
+    <MESSAGE value="Solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution" />
   </component>
 </project>
